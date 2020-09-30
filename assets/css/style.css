@@ -1,0 +1,267 @@
+/* 
+font-family: 'Lora', serif;
+font-family: 'Work Sans', sans-serif; */
+
+/* Farbe: #2e2e2e / #fff / #000 / #1d2c2f 
+Link Youtube */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Work+Sans:wght@100&display=swap');
+*{
+    margin: 0;
+}
+
+.first_part img
+
+{
+    position: relative;
+    left: 44.3%;
+    width: 60%;
+}
+.first_part h1
+{
+    position:absolute;
+    bottom: 60%;
+    margin: 2%;
+    left: 10%;
+    font-size: 6rem;
+    font-family: 'Lora', serif;
+    letter-spacing: 40px;
+}
+.first_part p
+{
+    position:absolute;
+    bottom: 53%;
+    margin: 2%;
+    left: 8%;
+  font-size:   1.5rem;
+  font-family: 'Lora', serif;
+
+}
+nav {
+    
+    color: #fff;
+    position: sticky;
+    top: 0;
+    background: #333 url(../css/img/logo.png) 20px center / 80px no-repeat;
+}
+
+nav ul {
+    display: inline-block;
+    margin-left: 30%;
+    width: 70%;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    padding: 2vh 16% 2vh 0;
+    
+}
+a {
+    color: inherit;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.three_part
+{
+    background: #2e2e2e;
+    margin-bottom: 15%;
+}
+
+
+.three_part img
+
+{
+    position: relative;
+  left:  0%;
+  width: 60%;
+  margin-top: 20%;
+}
+.three_part h2
+{
+    position:absolute;
+   left: 70%;
+   top: 130%;
+    margin: 2%;
+   color: #fff;
+    font-size: 2.5rem;
+    font-family: 'Lora', serif;
+
+}
+
+
+.three_part p
+{
+    position:absolute;
+   top: 140%;
+    margin: 2%;
+    left: 65%;
+  font-size:   1rem;
+  font-family: 'Work Sans', sans-serif;
+  color: #fff;
+  width: 36%;
+
+}
+.fourth_part h3
+{
+  text-align: center;
+  font-family: 'Lora', serif;
+   font-size: 2rem;
+   margin-bottom: 1%;
+
+}
+.fourth_part p
+{
+    padding-left: 35%;
+    font-size:   1rem;
+    font-family: 'Work Sans', sans-serif;
+    word-spacing: 1em;
+}
+
+
+.D-3image{
+    margin-left: 7%;
+    margin-right: 4%;
+    margin-top: 5%;
+}
+.D-3image img{
+    padding-top: 5%;
+    width: 100%;
+}
+.img-1fig{
+    display: inline-block;
+     padding-top: -40%;
+     margin-top: -10%;
+}
+
+figure{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 1%;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    word-spacing: 7px;
+    color: #2E2E2E;
+}
+iframe{
+    padding-left: 35%;
+    padding-top: 4%;
+}
+
+
+.five_part
+{
+    background: #2e2e2e ;
+    height: 70vh;
+    color: #fff;
+}
+.five_part div
+{
+    padding-left: 7%;
+    padding-top: 4%;
+
+}
+.five_part h1
+{
+    font-size: 3rem;
+    font-family: 'Lora', serif;
+}
+.five_part p
+{
+    font-size:   1.2rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.five_part article
+{
+    padding-left: 63%;
+    padding-top: -4%;
+  
+   
+}
+.five_input p
+{
+  
+  padding-left:15%;
+}
+
+[ placeholder="Enter name"]
+
+{
+    margin-left: 15%;
+  
+   width:40%;
+}
+[ placeholder="Enter email"]
+
+{
+    margin-left: 15%;
+    width: 40%;
+}
+[ placeholder="optional"]
+
+{
+    margin-left: 15%;
+    width: 40%;
+    
+}
+[placeholder="submit"]
+
+
+{
+    margin-left: 15%;
+    
+    width: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: olivedrab;
+    color: #fff;
+}
+footer p, footer ul  {
+    display: inline-block;
+    width: 33%;
+    margin: 0;
+    padding: 0;
+    
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+footer li {
+ display: inline-block;
+ width: 30%;
+}
+footer p:nth-of-type(2) {
+    text-align: center;
+}
